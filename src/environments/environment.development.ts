@@ -1,7 +1,8 @@
 export const environment = {
-    production: false,
+    version: '0.0.1',
     apiUrl: 'https://localhost:7200/v1',
-    domain: 'vireo.eu.auth0.com',
+    audience: 'https://localhost:7200/',
     clientId: 'mPXMvjIrRCE8AkbyjMAJJ1B9RXjuxUWH',
-    audience: 'https://localhost:7200',
+    domain: 'vireo.eu.auth0.com',
+    production: false,
 };

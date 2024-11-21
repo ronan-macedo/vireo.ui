@@ -1,0 +1,12 @@
+@import "../../../../styles/colors";
+
+.bottom-footer {
+    border-top: .25rem solid $primaryDark;
+    background-color: $primary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: $black;
+    padding: .05rem;
+    width: 100%;
+}

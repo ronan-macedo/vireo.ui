@@ -1,0 +1,26 @@
+@import "../../../../../../styles/colors";
+
+.nav-bar {
+    border-top: .25rem solid $primaryDark;
+    border-bottom: .25rem solid $primaryDark;
+    overflow-x: auto;
+    background-color: $primary;
+    white-space: nowrap;
+    width: 100%;
+
+    a {
+        color: $black;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: .625rem .625rem;
+    }
+
+    li:hover {
+        background-color: $primaryLight;
+    }
+}

@@ -1,7 +1,8 @@
 export const environment = {
-    production: true,
+    version: '0.0.1',
     apiUrl: '${API_URL}',
-    domain: '${AUTH0_DOMAIN}',
-    clientId: '${AUTH0_CLIENT_ID}',
     audience: '${AUTH0_AUDIENCE}',
+    clientId: '${AUTH0_CLIENT_ID}',
+    domain: '${AUTH0_DOMAIN}',
+    production: true,
 };

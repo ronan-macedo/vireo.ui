@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "pnpm"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -33,7 +33,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": []
           },
@@ -77,7 +77,12 @@
               "buildTarget": "vireo.ui:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "ssl": true,
+            "sslKey": "ssl/localhost.key",
+            "sslCert": "ssl/localhost.crt"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -99,7 +104,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": []
           }
